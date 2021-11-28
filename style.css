@@ -187,6 +187,19 @@ footer .title:before{
     border-top: var(--arrow-height) solid rgba(0, 0, 0, 0.2);*/
 }
 
+.image img{
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease;
+}
+.image img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: all scale(1.2);
+}
+
 #twitter img{
     background: rgba(185, 203, 255, 0.1);
 }
