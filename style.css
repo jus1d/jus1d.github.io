@@ -11,7 +11,7 @@ html,body{
     height: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    background: linear-gradient(55deg, rgb(89, 103, 255) 20%, rgb(155, 33, 255));
+    background: linear-gradient(55deg, rgb(255, 191, 139) 20%, rgb(128, 54, 224));
     color: white;
 }
 
