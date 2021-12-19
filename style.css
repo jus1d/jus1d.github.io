@@ -11,8 +11,10 @@ html,body{
     height: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    background: linear-gradient(55deg, rgb(0, 0, 0) 20%, rgb(41, 41, 41));
+    background: linear-gradient(55deg, #000000 20%, #434343);
+    background-size: 400% 400%;
     color: white;
+    animation: gradient 20s ease infinite;
 }
 
 body{
@@ -232,6 +234,24 @@ footer .title:before{
     transform: scale(1.2);
     padding: 15%;
     background: rgba(185, 203, 255, 0.1);
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    25%{
+        background-position: 100% 50%;
+    }
+    50%{
+        background-position: 25% 75%;
+    }
+    75%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 50 100%;
+    }
 }
 
 @keyframes showAvatar{
