@@ -11,7 +11,7 @@ html,body{
     height: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    background: linear-gradient(55deg, #000000 20%, #434343);
+    background: linear-gradient(55deg, #0f0c29, #302b63, #24243e);
     background-size: 400% 400%;
     color: white;
     animation: gradient 20s ease infinite;
@@ -240,17 +240,14 @@ footer .title:before{
     0%{
         background-position: 0 50%;
     }
-    25%{
-        background-position: 100% 50%;
+    33%{
+        background-position: 100% 0%;
     }
-    50%{
+    67%{
         background-position: 25% 75%;
     }
-    75%{
-        background-position: 100% 50%;
-    }
     100%{
-        background-position: 50 100%;
+        background-position: 0 50%;
     }
 }
 
