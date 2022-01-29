@@ -199,7 +199,6 @@ footer .title:before{
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
-    transform: all scale(1.2);
 }
 
 #twitter img{
@@ -207,6 +206,10 @@ footer .title:before{
 }
 #github img{
     padding: 20%;
+    background: rgba(185, 203, 255, 0.1);
+}
+#open_sea img{
+    padding: 15%;
     background: rgba(185, 203, 255, 0.1);
 }
 #spotify img{
@@ -226,6 +229,13 @@ footer .title:before{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     padding: 20%;
+    background: rgba(185, 203, 255, 0.1);
+}
+#open_sea:hover img{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    padding: 15%;
     background: rgba(185, 203, 255, 0.1);
 }
 #spotify:hover img{
