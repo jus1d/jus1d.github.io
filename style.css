@@ -9,7 +9,7 @@ html,body{
     box-sizing: border-box;
     margin: 0;
     height: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background: linear-gradient(55deg, #131313, #2b2a2a, #161616);
     background-size: 400% 400%;
@@ -181,12 +181,6 @@ footer .title:before{
     width: 0;
     height: 0;
     transform: translate(-50%, 0);
-
-    /*--arrow-width: calc(var(--linkMargin) / 4 * 3);
-    --arrow-height: calc((var(--linkMargin) * 2) / 4 * 3);
-    border-left: var(--arrow-width) solid transparent;
-    border-right: var(--arrow-width) solid transparent;
-    border-top: var(--arrow-height) solid rgba(0, 0, 0, 0.2);*/
 }
 
 .image img{
