@@ -258,11 +258,11 @@ footer .title:before{
 
 @keyframes showAvatar{
     0%{
-        filter: opacity(0%)saturate(126%);
+        filter: opacity(0%) saturate(126%);
         transform: scale(0.5);
     }
     100%{
-        filter: opacity(100%)saturate(126%);
+        filter: opacity(100%) saturate(126%);
         transform: scale(1);
     }
 }
@@ -281,15 +281,15 @@ footer .title:before{
 @keyframes showDock{
     0%{
         filter: opacity(0%);
-        transform: translate(0, 100%)scale(0.5);
+        transform: translate(0, 100%) scale(0.5);
     }
     60%{
         filter: opacity(100%);
-        transform: translate(0, 0)scale(1.05);
+        transform: translate(0, 0) scale(1.05);
     }
     100%{
         filter: opacity(100%);
-        transform: translate(0, 0)scale(1);
+        transform: translate(0, 0) scale(1);
     }
 }
 
@@ -323,6 +323,7 @@ footer .title:before{
         bottom: calc(100% + 18px);
     }
 }
+
 @media not all and (hover: none){
     footer a:hover > .title{
         display: initial;
